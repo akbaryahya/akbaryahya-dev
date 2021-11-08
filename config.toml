@@ -1,0 +1,44 @@
+baseURL = 'http://siakbary.my.id/'
+languageCode = 'en'
+defaultContentLanguage = "en"
+title = 'Akbar Yahya'
+
+theme = "LoveIt"
+
+[params]
+version = "0.2.X"
+defaultTheme = "dark"
+
+[menu]
+[[menu.main]]
+identifier = "posts"
+pre = '<i class="fas fa-home"></i>'
+post = ""
+name = "Posts"
+url = "/posts/"
+title = ""
+weight = 1
+
+[markup]
+[markup.highlight]
+noClasses = false
+
+[params.home]
+[params.home.profile]
+enable = true
+avatarURL = "https://avatars.githubusercontent.com/u/11765082?v=4"
+title = "Hi"
+subtitle = "Welcome to my personal blog"
+typeit = true
+social = true
+disclaimer = ""
+
+[params.home.posts]
+enable = false
+
+[params.social]
+GitHub = "akbaryahya"
+Email = "me@siakbary.my.id"
+
+[params.footer]
+enable = false
